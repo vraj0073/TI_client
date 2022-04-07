@@ -1,0 +1,39 @@
+.registrationbox{
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 13%;
+    margin-bottom: 7%;
+
+}
+#leftcontainer{
+
+}
+
+.registrationcontainer{
+    width:80%;
+    background-color: gray;
+    height: 120%;
+    
+    margin-left: 15%;
+    
+}
+
+#registrationheading{
+    margin-top: 5%;
+    padding-left: 15%;
+    color: white;
+}
+
+#registrationbutton{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    background-color: darkcyan;
+    color: white;
+    font-variant: normal;
+    
+}
+
+.error-label{
+    position: absolute;
+}

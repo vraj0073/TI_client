@@ -1,0 +1,17 @@
+.logincontainer{
+    width: 22%;
+    margin-top: 17%;
+    margin-bottom: 10%;
+}
+
+#buttonlogin{
+    background-color: darkcyan;
+}
+
+#link{
+    color: darkcyan;
+}
+
+#loginmessage{
+    color: black !important;
+}
