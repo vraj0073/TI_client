@@ -16,23 +16,31 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/recycle" element={<Recycle />} />
-        <Route path="/checkOtp" element={<RestaurantOTP />} />
+        <Route exact path="/recycle" element={<Recycle />} />
+        <Route exact path="/checkOtp" element={<RestaurantOTP />} />
 
-        <Route path="/restaurantfood" element={<RestaurantFood />} />
-        <Route path="/ngo" element={<NgoFeature />} />
+        <Route exact path="/restaurantfood" element={<RestaurantFood />} />
+        <Route exact path="/ngo" element={<NgoFeature />} />
 
-        <Route path="/register" element={<Registration />} />
-      </Routes>
-      <Routes>
+        <Route exact path="/register" element={<Registration />} />
         <Route path="/" element={<Testhomeback />} />
+        
+        <Route exact path="/login" element={<Login />} />
+
+        
+        <Route exact path="/donate" element={<Donate />} />
+
+
+      </Routes>
+      {/* <Routes>
+        <Route path="/" element={<Testhomeback />} />
+      </Routes> */}
+      {/* <Routes>
+        <Route exact path="/login" element={<Login />} />
       </Routes>
       <Routes>
-        <Route path="/login" element={<Login />} />
-      </Routes>
-      <Routes>
-        <Route path="/donate" element={<Donate />} />
-      </Routes>
+        <Route exact path="/donate" element={<Donate />} />
+      </Routes> */}
     </div>
   );
 }
