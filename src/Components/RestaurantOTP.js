@@ -35,7 +35,7 @@ export default function RestaurantOTP() {
 
   const handleSubmit = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/getItemByOtp", {
+      const res = await axios.get("https://tiserverb00.herokuapp.com/getItemByOtp", {
         params: {
           otp,
         },
