@@ -50,6 +50,7 @@ export const Registration = () => {
         })
         .then(function (response) {
           console.log(response);
+          alert("Registration successful. Please Login to access our website.");
           history("/login");
         })
         .catch(function (error) {

@@ -25,6 +25,8 @@ export default function RestaurantOTP() {
           itemId: content?._id,
         },
       });
+      alert("OTP is matched, food can be delivered to the NGO.");
+      window.location.reload();
       console.log(res.data);
       setOpen1(false);
     } catch (error) {

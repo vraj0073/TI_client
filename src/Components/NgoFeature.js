@@ -42,17 +42,8 @@ function NgoFeature() {
   return items ? (
     <div>
       <Testhome />
-      <Grid
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-        }}
-      >
-        <Typography gutterBottom variant="h5" component="div">
-          {content}
-        </Typography>
-      </Grid>
+      <h2 className="heading">List of food requests</h2>
+
       <Grid
         container
         spacing={2}
